@@ -1,0 +1,9 @@
+name: CharLimit
+version: ${project.version}
+main: net.kunmc.lab.charlimit.CharLimit
+api-version: 1.15
+authors: [Kamesuta]
+
+permissions:
+  charlimit.bypass:
+    default: false
