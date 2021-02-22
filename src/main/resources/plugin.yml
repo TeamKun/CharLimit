@@ -5,5 +5,11 @@ api-version: 1.15
 authors: [Kamesuta]
 
 permissions:
+  charlimit.set:
+    default: op
   charlimit.bypass:
     default: false
+
+commands:
+  ch:
+    permission: charlimit.set
